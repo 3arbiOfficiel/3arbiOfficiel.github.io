@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<htlm lang="fr">
+<link type="text/css" rel="stylesheet" href="mycoolstyle.css">
+<link type="text/css" rel="stylesheet" href="style.css" media="print">
+
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <title>Portfolio</title>
+
+    </head>
+
+
+    <body>
+
+        <ul class="menu">
+            <li><a href="index.html" class="navbar">Page d'accueil</a></li>
+            <li><a href="com.html" class="navbar">Compétences</a></li>
+            <li><a href="projet.html" class="navbar">Projets</a></li>
+            <li><a href="loisir.html" class="navbar">Centres d'intérêt</a></li>
+            <li><a href="contact.html" class="navbar">Contact</a></li>
+        </ul>
+
+        <div class="titre">
+            <div class="page">
+                <h1>Contact</h1>
+            </div>
+        </div>
+
+        <div id="for">
+
+            <form action="traitement.php" method="POST">
+    
+            <p>
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom">
+          
+            </p>
+    
+            <br/>
+    
+            <p>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" required>
+                </p>
+    
+            <br/>
+    
+            <p>
+                <label for="mail">Email</label>
+                <input type="email" name="email" id="mail">
+            </p>
+    
+            <br/>
+    
+          
+    
+            <br/>
+    
+            <p>
+                <label for="des">Motif de contact</label>
+                <textarea name="description" id="des" ></textarea>
+            </p>
+    
+            <br/>
+    
+       
+    
+            <br/>
+    
+        
+            <br/>
+    
+            <p>
+                <input type="submit" value="Envoyer">
+            </p>
+    
+        </form>
+        
+        </div>
+
+    </body>
+</htlm>
