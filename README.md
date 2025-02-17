@@ -4,7 +4,7 @@ Site web des 3arbi
 
 ## :computer: Installation
 
-utilisez le lien "https://3arbiofficiel.github.io/".
+utilisez le lien "https://3arbiofficiel.github.io/Pages".
 
 ## 	:keyboard: Notre application
 
